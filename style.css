@@ -1,12 +1,13 @@
-.box {
-  margin: 24px;
+a {
+  text-decoration: none;
 }
 
-span {
-  display: inline-block;
+nav {
+  display: flex;
+  align-items: center;
 }
 
-a + nav {
+span + span {
   margin-left: 221px;
 }
 
@@ -22,6 +23,10 @@ li {
 
 li + li {
   margin-left: 15px;
+}
+
+.box {
+  margin: 24px;
 }
 
 .network-icons a:hover {
@@ -69,11 +74,6 @@ li + li {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-}
-
-.network-icons {
-  display: inline-block;
-  column-gap: 300px;
 }
 
 .container {
