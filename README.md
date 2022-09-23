@@ -1,6 +1,6 @@
 # Setup-and-Mobile-First
 
-Main page of the personal portfolio is implemented
+"Content" and "About Me" pages of the personal portfolio is implemented
 
 ## Built With
 
@@ -10,9 +10,7 @@ Main page of the personal portfolio is implemented
 ## Getting Started
 
 - First of all set up the .github folder, then inside it create a folder named as workflows, then inside that foloder create a yml file called linters.yml. Then take the corresponding github file for the HTML/CSS linter config.
-- Then add index.html and a style.css to style our main page.
-
-To get a local copy up and running follow these simple example steps.
+- Then add index.html and a style.css to style our content and about me pages.
 
 ### Prerequisites
 
