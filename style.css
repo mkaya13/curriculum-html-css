@@ -5,6 +5,12 @@ a {
 nav {
   display: flex;
   align-items: center;
+  justify-center: center;
+}
+
+span {
+  display: flex;
+  align-items: center;
 }
 
 span + span {
