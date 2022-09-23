@@ -7,6 +7,11 @@ nav {
   align-items: center;
 }
 
+span {
+  display: flex;
+  align-items: center;
+}
+
 span + span {
   margin-left: 221px;
 }
