@@ -360,3 +360,8 @@ a {
   height: 100px;
   gap: 180px;
 }
+
+.float {
+  float: left;
+  margin: 0px 4px;
+}
