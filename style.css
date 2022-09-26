@@ -22,7 +22,7 @@ li {
 }
 
 li + li {
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 nav {
@@ -363,5 +363,4 @@ a {
 
 .float {
   float: left;
-  margin: 0px 4px;
 }
