@@ -10,7 +10,7 @@
 ## Getting Started
 
 - First of all set up the .github folder, then inside it create a folder named as workflows, then inside that foloder create a yml file called linters.yml. Then take the corresponding github file for the HTML/CSS linter config.
-- Then add index.html and a style.css to style our main content and about me pages.
+- Then add index.html and a style.css to style our main content, projects section about me pages and contact me page.
 
 ### Prerequisites
 
