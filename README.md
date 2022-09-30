@@ -10,7 +10,7 @@
 ## Getting Started
 
 - First of all set up the .github folder, then inside it create a folder named as workflows, then inside that foloder create a yml file called linters.yml. Then take the corresponding github file for the HTML/CSS linter config.
-- Then add index.html and a style.css to style our main content, projects section about me pages and contact me page.
+- Then add index.html and a style.css to style our main content which include opening section, projects section about me page and contact me page.
 
 ### Prerequisites
 
@@ -31,6 +31,8 @@ Through Github
 ### Run tests
 
 - Through Github
+- Linter test in local:
+  `npx stylelint "\*_/_.{css,scss}" `
 
 ### Deployment
 
