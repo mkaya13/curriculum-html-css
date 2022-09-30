@@ -32,7 +32,7 @@ Through Github
 
 - Through Github
 - Linter test in local:
-  `npx stylelint "\*_/_.{css,scss}" `
+  `npx stylelint "**/*.{css,scss}"`
 
 ### Deployment
 
