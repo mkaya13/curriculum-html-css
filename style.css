@@ -560,6 +560,10 @@ li.languages-list + li.languages-list {
     margin-left: 30px;
   }
 
+  .navbar {
+    position: fixed;
+  }
+
   .grid-container {
     margin: 0 auto;
     display: grid;
@@ -635,7 +639,7 @@ li.languages-list + li.languages-list {
   }
 
   .mobile-rectangle {
-    width: 145px;
+    width: 152px;
     height: 120px;
     background: #f7f7f9;
     transition: transform 1s;
