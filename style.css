@@ -748,14 +748,11 @@ li.languages-list + li.languages-list {
   .animation-container {
     grid-column-start: 1;
     grid-column-end: 3;
-
     grid-row-start: 3;
     grid-row-end: span 1;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding-left: 540px;
   }
 
@@ -774,19 +771,17 @@ li.languages-list + li.languages-list {
     0% {
       transform: rotate(0deg);
     }
+
     100% {
       transform: rotate(360deg);
     }
-  }
-
-  .animation-container .ring:nth-child(2) {
-    animation: animate2 2s linear infinite;
   }
 
   @keyframes animate2 {
     0% {
       transform: rotate(360deg);
     }
+
     100% {
       transform: rotate(0deg);
     }
@@ -795,7 +790,6 @@ li.languages-list + li.languages-list {
   .animation-container .ring:nth-child(1) {
     animation: animate2 2s linear infinite;
     animation-delay: -2s;
-
     position: absolute;
     margin-top: -175px;
   }
@@ -809,8 +803,12 @@ li.languages-list + li.languages-list {
     width: 15px;
     height: 15px;
     background: #24ecff;
-    box-shadow: 0 0 0 5px #24ecff53, 0 0 0 10px #24ecff22, 0 0 0 20px #24ecff11,
-      0 0 20px #24ecff, 0 0 20px #24ecff;
+    box-shadow:
+      0 0 0 5px #24ecff53,
+      0 0 0 10px #24ecff22,
+      0 0 0 20px #24ecff11,
+      0 0 20px #24ecff,
+      0 0 20px #24ecff;
   }
 
   .animation-container .ring:nth-child(2) {
@@ -830,14 +828,19 @@ li.languages-list + li.languages-list {
     width: 15px;
     height: 15px;
     background: #93ff2d;
-    box-shadow: 0 0 0 5px #93ff2d53, 0 0 0 10px #93ff2d22, 0 0 0 20px #93ff2d11,
-      0 0 20px #93ff2d, 0 0 20px #93ff2d;
+    box-shadow:
+      0 0 0 5px #93ff2d53,
+      0 0 0 10px #93ff2d22,
+      0 0 0 20px #93ff2d11,
+      0 0 20px #93ff2d,
+      0 0 20px #93ff2d;
   }
 
   @keyframes animate2 {
     0% {
       transform: rotate(360deg);
     }
+
     100% {
       transform: rotate(0deg);
     }
@@ -860,7 +863,11 @@ li.languages-list + li.languages-list {
     width: 15px;
     height: 15px;
     background: #e41cf8;
-    box-shadow: 0 0 0 5px #e41cf853, 0 0 0 10px #e41cf822, 0 0 0 20px #e41cf811,
-      0 0 20px #e41cf8, 0 0 20px #e41cf8;
+    box-shadow:
+      0 0 0 5px #e41cf853,
+      0 0 0 10px #e41cf822,
+      0 0 0 20px #e41cf811,
+      0 0 20px #e41cf8,
+      0 0 20px #e41cf8;
   }
 }
