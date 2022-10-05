@@ -14,7 +14,7 @@
 
 ### Prerequisites
 
-- node.js
+- Linter Files
 
 ### Setup
 
