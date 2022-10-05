@@ -14,7 +14,7 @@
 
 ### Prerequisites
 
-- Linter Files
+- Linter File
 
 ### Setup
 
