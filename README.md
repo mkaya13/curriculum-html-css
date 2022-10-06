@@ -1,6 +1,6 @@
 # Setup-and-Mobile-First
 
-"Content" and "About Me" pages of the personal portfolio is implemented
+"Content", "Portfolio", "About Me", "Contact Me", and "Fields of Interests" sections are added.
 
 ## Built With
 
@@ -14,7 +14,7 @@
 
 ### Prerequisites
 
-- Linter Files
+- node.js
 
 ### Setup
 
